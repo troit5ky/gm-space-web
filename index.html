@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Garry's Mod Space | Стартовая позиция</title>
+</head>
+<body>
+<div class="header">
+        <div class="header_content">
+            <a href=""><span>Главная</span></a>
+            <span>/</span>
+            <a target="blank" href="//status.troit5ky.space"><Span>Статус</Span></a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div id="frames" class="frames">
+            <div class="frame">
+                <span id="title">Добро пожаловать на сайт проекта "GM.space"!</span><br/>
+                <span id="subtitle">Цель сервера - создать пространство для творчества и комфортного общения :)</span>
+            </div>
+
+            <div class="frame">
+                <span id="title">Быстрое подключение</span><br/>
+                <span id="subtitle">Нажми на кнопку, чтобы начать быстро играть.</span>
+                <a href="steam://connect/gm.troit5ky.space:27015"><div class="button">Подключиться</div></a>
+            </div>
+
+            <div class="frame">
+                <span id="title">Workshop контент</span><br/>
+                <span id="subtitle">Здесь собраны аддоны коммьюнити используемые на сервере.</span>
+                <a href="//steamcommunity.com/sharedfiles/filedetails/?id=2141962604"><div class="button">Перейти</div></a>
+            </div>
+    
+            <div class="frame">
+                <span id="title">Наш дискорд</span><br/>
+                <span id="subtitle">Узнавай новости одним из первых!</span>
+                <a href="//discord.gg/FbrDRtu"><div class="button">Перейти</div></a>
+            </div>
+    
+            <div class="frame">
+                <span id="title">И не забудь про правила!</span><br/>
+                <span id="subtitle">Незнание правил не освобождает тебя от ответственности :3</span>
+                <a href="/rules"><div class="button">Перейти</div></a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $('.frames').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 6000,
+            centerMode: true,
+            dots:false,
+            fade:true,
+            adaptiveHeight: true,
+        });
+
+    </script>
+
+    <div class="bg"></div>
+</body>
+</html>
