@@ -7,7 +7,7 @@
 
 		<div id="container">
 
-            <span id="title">loading...</span><br/>
+            <span id="title">Загружаемся...</span><br/>
 
             <br/>
             <img src="img/gmod_logo_brave.png" alt="">
@@ -32,16 +32,16 @@
         </div>
 
         <script type="text/javascript">
-            var title = document.getElementById("title");
-            var title_status = document.getElementById("title_status")
-            var title_files = document.getElementById("title_files")
-            var title_steamid = document.getElementById("title_steamid");
-            var title_maxplayers = document.getElementById("title_maxplayers");
-            var title_mapname = document.getElementById("title_mapname");
+            const title = document.getElementById("title");
+            const title_status = document.getElementById("title_status")
+            const title_files = document.getElementById("title_files")
+            const title_steamid = document.getElementById("title_steamid");
+            const title_maxplayers = document.getElementById("title_maxplayers");
+            const title_mapname = document.getElementById("title_mapname");
 
 			function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang )
 			{
-				title.innerHTML = servername;
+				//title.innerHTML = servername;
                 title_steamid.innerHTML = steamid;
                 title_maxplayers.innerHTML = maxplayers;
                 title_mapname.innerHTML = mapname;
